@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-confirmation {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.payment-confirmation h1 {
+    color:lightskyblue;
+}
+
+.payment-confirmation .details {
+    margin: 20px 0;
+}
+
+.payment-confirmation p {
+    margin: 10px 0;
+}
+
+.payment-confirmation button {
+    background:lightskyblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-confirmation button:hover {
+    background: #45a049;
+}

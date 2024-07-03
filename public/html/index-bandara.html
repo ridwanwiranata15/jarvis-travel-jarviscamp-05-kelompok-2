@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/index-bandara.css">
+    <link rel="stylesheet" href="../css/remixicon.css">
+    <title>Asmr programminng for terbang.yuk</title>
+</head>
+<body>
+    <div class="left-section">
+        <div class="sidebar">
+            <h2>Jarvis <br> Travel</h2>
+            <div class="item active">
+
+                <h3>Bandara</h3>
+            </div>
+            <div class="item">
+
+                <h3>bandara</h3>
+            </div>
+            <div class="item">
+
+                <h3>Pelanggan</h3>
+            </div>
+            <div class="item">
+
+                <h3>Pesanan</h3>
+            </div>
+        </div>
+        <div class="sign-out">
+            <h3>Sign Out</h3>
+        </div>        
+    </div>
+    <div class="main">
+        <div class="header">
+            <div class="search">
+                <button>Search</button>
+                <input type="text" placeholder="" placeholder="Search">
+            </div>
+        </div>
+        <h3 class="seperator-airport">
+            Data bandara
+            <button>Tambah bandara</button>
+        </h3>
+        <div class="quick-access">
+            <table class="quick-access-table-airport">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Bandara</th>
+                        <th>Kota</th>
+                        <th>Wilayah</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-id="1">
+                        <td>No</td>
+                        <td>Nama Bandara</td>
+                        <td>Kota</td>
+                        <td>Wilayah</td>
+                        <td>
+                            <button onClick="EditAirport(1)">Ubah</button>
+                            <form action="" method="post">
+                                <button>Hapus</button>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="modal-add-airport">
+            <div class="modal-add-airport-content">
+                <div class="modal-add-airport-header">
+                    <h3>Tambah Bandara</h3>
+                    <span>X</span>
+                </div>
+                <div class="modal-add-airport-content">
+                    <form action="">
+                        <table class="add-airport">
+                            <tr>
+                                <td>Nama Bandara</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" placeholder="Nama Bandara" name="nama Bandara">
+                                    <span class="alert-message"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Kota</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" placeholder="Kota" name="Kota">
+                                    <span class="alert-message"></span>       
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Wilayah</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" placeholder="Wilayah" name="Wilayah">
+                                    <span class="alert-message"></span>
+                                </td>
+                            </tr>
+                           
+                        </table>
+                    </form>
+                </div>
+                <div class="modal-add-airport-footer">
+                    <button>Tambah</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal-edit-airport">
+            <div class="modal-edit-airport-content">
+                <div class="modal-edit-airport-header">
+                    <h3>Ubah bandara</h3>
+                    <span>X</span>
+                </div>
+                <div class="modal-edit-airport-content">
+                    <form action="">
+                        <table class="edit-airport">
+                            <tr>
+                                <td>Nama Bandara</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" placeholder="Nama Bandara" name="nama Bandara">
+                                    <span class="alert-message"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Kota</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" placeholder="Kota" name="Kota">
+                                    <span class="alert-message"></span>       
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Wilayah</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" placeholder="Wilayah" name="Wilayah">
+                                    <span class="alert-message"></span>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="modal-edit-airport-footer">
+                    <button>Ubah</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="../js/index-bandara.js"></script>
+</body>
+</html>

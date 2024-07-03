@@ -1,0 +1,232 @@
+@font-face {
+    font-family:'poppins';
+    src: url('../font/Poppins-Regular.ttf') format('truetype');
+
+}
+*{
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: lightskyblue;
+}
+button{
+    cursor: pointer;
+    border:none;
+}
+.container{
+  
+}
+.container-top{
+    display: flex;
+    justify-content: space-between; 
+}
+.container-top .auth button{
+    padding: 10px;
+    border: none;
+}
+.container-top .auth button:first-child{
+    background-color: lightskyblue;
+    color: blue;
+    border:1px solid blue;
+}
+.container-top .auth button:last-child{
+    background-color: blue;
+    color: #fff;
+}
+.container-top-title{
+    display: flex;
+    justify-content: space-between;
+}
+.container-top-title-text{
+
+}
+.container-top-title-text span{
+    color:white;
+}
+.container{   
+    padding: 0px;
+}
+.lang h1{
+    color:white;
+}
+.container-top{
+}
+.container-top-title{
+}
+.btn-choose button{
+    font-size: large;   
+}
+.btn-choose button:first-child{
+    color:#000;
+    border-radius: 10px;
+    justify-content: space-between; 
+    
+    
+}
+.chose{
+    display: flex;
+    justify-content: space-between;
+}
+.choose-people{
+    display: flex;
+    margin-left: 160px;
+    
+}
+.choose-people{
+}
+.choose-people-class{
+    margin-left: 10px;
+}
+.choose-people-pasenger, 
+.choose-people-class{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.choose-people-class select{
+    border:none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+.order{
+    display: flex;
+}
+.from-content p, 
+.to-content p{
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.airport-content{
+    display: flex;
+}
+.to{
+   
+}
+
+
+.airport button{
+    margin-top: 40px;
+}
+.airport i{
+    
+}
+.date-home-choose{
+    display: flex;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.date-home{
+    margin-left: 10px;
+}
+.date input[type="date"]{
+    background-color: #fff;
+    border:none;
+    outline: none;
+    padding: 10px;
+    border-radius: 100px;
+    
+}
+
+.date input[type="checkbox"]{
+    padding: 10px;
+}
+.input-disabled{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.search{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 100px;
+}
+.modal-choose-airport-content-body ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.modal-choose-airport-content-body input{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    outline:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.modal-choose-airport-content-header span{
+    margin-left: 170px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size:large;
+    cursor: pointer;
+}
+.dari{
+    position:absolute;
+    top:10px;  
+    background-color: #fff;
+    padding: 10px;
+    border-radius:10px;
+    overflow:scroll;
+    height: 270px;
+    left: 15px;
+    display: none;
+}
+.tujuan{
+    position:absolute;
+    top:10px;  
+    background-color: #fff;
+    padding: 10px;
+    border-radius:10px;
+    overflow:scroll;
+    height: 270px;
+    left: 180px;
+    display: none;
+}
+.jalan,.multi{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.show{
+    display: block;
+}
+.modal-choose-people button{
+    padding: 10px;
+    background-color: lightgreen;
+    margin: 10px 0px;
+    width: 270px;
+}
+.modal-choose-people input[type="number"]{
+    outline: none;
+}
+.modal-choose-people{
+    position: absolute;
+    top: 10px;
+    background-color: #fff;
+    padding: 10px;
+    left: 400px;
+    border-radius: 10px;
+    display: none;
+}
+.modal-choose-people-header P{
+   margin-left: 260px;
+   font-size: large;
+   font-weight: bolder;
+}
+.modal-choose-people-header P:hover{
+    color:red;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.choose-people-pasenger span{
+    color:black;
+}

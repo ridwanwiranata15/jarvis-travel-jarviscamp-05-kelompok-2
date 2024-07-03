@@ -1,0 +1,240 @@
+.seperator-airport{
+    margin: 15px 0;
+}
+.quick-access-table-airport thead tr th:nth-child(5){
+    display: none;
+}
+.quick-access-table-airport thead tr th:nth-child(6){
+    display: none;
+}
+.quick-access-table-airport thead tr th:nth-child(7){
+    display: none;
+}.quick-access-table-airport thead tr th:nth-child(8){
+    display: none;
+}
+.quick-access-table-airport thead tr th:nth-child(9){
+    display: none;
+}
+.quick-access-table-airport thead tr th{
+    padding-right: 190px;
+}
+
+.quick-access-table-airport tbody tr td:nth-child(5){
+    display: none;
+}
+.quick-access-table-airport tbody tr td:nth-child(6){
+    display: none;
+}
+.quick-access-table-airport tbody tr td:nth-child(7){
+    display: none;
+}.quick-access-table-airport tbody tr td:nth-child(8){
+    display: none;
+}
+.quick-access-table-airport tbody tr td:nth-child(9){
+    display: none;
+}
+.quick-access-table-airport tbody tr td:last-child button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.quick-access-table-airport tbody tr td:last-child{
+    display: flex;
+}
+.quick-access-table-airport tbody tr td:last-child button:first-child{
+    border: solid gold;
+    color: gold;
+    background-color:yellow;
+}
+.quick-access-table-airport tbody tr td:last-child button:nth-child(2){
+    border: solid blue;
+    background-color: lightskyblue;
+    color: blue;
+    margin: 0 10px;
+}
+.quick-access-table-airport tbody tr td:last-child button:last-child{
+    border: solid red;
+    background-color: pink;
+    color: red;
+}
+.seperator-airport{
+    display: flex;
+    justify-content: space-between;
+}
+.seperator-airport button{
+    padding: 10px;
+    border:solid green;
+    background-color: lightgreen;
+    color: green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.modal-add-airport-footer button{
+    padding: 10px;
+    border:solid green;
+    background-color: lightgreen;
+    color: green;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    box-sizing:border-box;
+    width: 1300px;
+}
+.input-text{
+    display: flex;
+}
+.input-text:first-child input{
+    margin-left: 23px;
+}
+.input-text:nth-child(2) input{
+    margin-left: 81px;
+}
+.input-text:nth-child(3) input{
+    margin-left: 84px;
+}
+.input-text:nth-child(4) input{
+    margin-left: 51px;
+}
+.input-text:nth-child(5) input{
+    margin-left: 103px;
+}
+.input-text:nth-child(6) input{
+    margin-left: 139px;
+}
+.input-text:nth-child(7) input{
+    margin-left: 109px;
+}
+.input-text:nth-child(8) input{
+    margin-left: 81px;
+}
+.input-text{
+    margin-bottom: 16px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+.input-text input{
+   width: 933px;
+   padding: 10px;
+   border: none;
+   outline: none;
+}
+.add-airport input{
+    margin-left: 10px;
+    padding: 10px;
+    width: 560%;
+    outline:none;
+    /* border:none; */
+}
+.edit-airport input{
+    margin-left: 10px;
+    padding: 10px;
+    width: 560%;
+    outline:none;
+    border:none;
+}
+
+.modal-add-airport-header{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 3%;
+    padding: 10px;
+}
+.modal-add-airport-header span{
+    font-weight:bolder;
+    font-size:x-large;
+}
+.modal-add-airport-header span:hover{
+    color:red;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+.modal-add-airport{
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow:auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+}
+.modal-add-airport-content{
+    background-color: #fff;
+    margin: 10px;
+    border-radius:10px;
+    opacity:0;
+    animation:fadeIn 1s forwards;
+}
+    
+@keyframes fadeIn{
+    to{
+        opacity:1;
+    }
+}
+
+.style-list{
+    list-style:none;
+    margin-bottom: 20px;
+}
+.alert-message {
+    color: red;
+    font-size: 0.8em;
+    display: block;
+    text-align: center;
+}
+.input-error {
+    max-width: 390%;
+    border:2px solid red;
+}
+
+
+.modal-edit-airport-header{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 3%;
+    padding: 10px;
+}
+.modal-edit-airport-header span{
+    font-weight:bolder;
+    font-size:x-large;
+}
+.modal-edit-airport-header span:hover{
+    color:red;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+.modal-edit-airport{
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow:auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+}
+.modal-edit-airport-content{
+    background-color: #fff;
+    margin: 10px;
+    border-radius:10px;
+    opacity:0;
+    animation:fadeIn 1s forwards;
+
+}
+.modal-edit-airport-footer button{
+    padding: 10px;
+    border: solid gold;
+    color: gold;
+    background-color:yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    box-sizing:border-box;
+    width: 1300px;
+}
+.input-success{
+    border: solid lightgreen;
+}

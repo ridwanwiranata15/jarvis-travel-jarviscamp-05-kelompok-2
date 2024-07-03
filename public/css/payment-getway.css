@@ -1,0 +1,27 @@
+.payment-header{
+    display: flex;
+    justify-content:space-between;
+    cursor:pointer;
+}
+.content{
+    padding: 10px;
+    background-color: #fff;
+    width: 100%;
+    height: 50%;
+
+}
+.payment-body{
+   display: none;
+}
+.show-payment-body{
+    display: block;
+}
+.payment-body ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.confirm{
+    background-color: lightskyblue;
+    padding: 10px;
+
+}
